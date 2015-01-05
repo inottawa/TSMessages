@@ -355,7 +355,7 @@ __weak static UIViewController *_defaultViewController;
          }
      } completion:^(BOOL finished)
      {
-         [currentView removeFromSuperview];
+//         [currentView removeFromSuperview];
          
          if ([self.messages count] > 0)
          {
